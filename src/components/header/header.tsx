@@ -4,14 +4,14 @@ export default function Header() {
   return (
     <div className="header">
       <div>
-        <h1>Hi, i´m John 👋</h1>
+        <h1>Hi, i´m John! 👋</h1>
         <h2>Fullstack developer</h2>
       </div>
       <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        width={325}
-        height={310}
+        src="/me.jpg"
+        alt="Perfil"
+        width={384}
+        height={300}
         priority
       />
     </div>

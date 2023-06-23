@@ -1,19 +1,22 @@
+import { GitHubIcon } from "../icons/github-icon"
+import { InstaIcon } from "../icons/insta-icon"
+import { LinkedInIcon } from "../icons/linkedin-icon"
 import "./social-btns.scss"
 export default function SocialBtns() {
     return (
         <div className="social">
             <a href="https://www.instagram.com/kipper.dev/">
-                {/* <InstaIcon/> */}
+                <InstaIcon/>
             </a>
             <a href="https://www.linkedin.com/in/fernanda-kipper/">
-                {/* <LinkedInIcon/> */}
+                <LinkedInIcon/>
             </a>
             <a href="https://github.com/Fernanda-Kipper">
-                {/* <GitHubIcon/> */}
+                <GitHubIcon/>
             </a>
-            <a href="">
-                {/* <TwitterIcon/> */}
-            </a>
+            {/* <a href="">
+                <TwitterIcon/>
+            </a> */}
         </div>
     )
 }
