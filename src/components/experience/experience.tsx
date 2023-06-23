@@ -10,7 +10,7 @@ export default function Experience() {
                 <Skill image="/react.png" measure={1} years="1 year" />
                 <Skill image="/js.png" measure={1} years="1 year" />
                 <Skill image="/ts.png" measure={1} years="1 year" />
-                {/* <Skill image="./python.png" measure={1} years="1 year" /> */}
+                <Skill image="/python.png" measure={1} years="1 year" />
             </div>
         </div>
     )
