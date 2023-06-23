@@ -5,13 +5,13 @@ import "./social-btns.scss"
 export default function SocialBtns() {
     return (
         <div className="social">
-            <a href="https://www.instagram.com/kipper.dev/">
+            <a href="https://www.instagram.com/johnwilli_am/" target="_blank">
                 <InstaIcon/>
             </a>
-            <a href="https://www.linkedin.com/in/fernanda-kipper/">
+            <a href="https://www.linkedin.com/in/john-william-de-araujo-mesquita/" target="_blank">
                 <LinkedInIcon/>
             </a>
-            <a href="https://github.com/Fernanda-Kipper">
+            <a href="https://github.com/johnwilliamam" target="_blank">
                 <GitHubIcon/>
             </a>
             {/* <a href="">
