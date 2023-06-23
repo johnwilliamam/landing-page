@@ -10,8 +10,8 @@ export default function Header() {
       <Image
         src="/me.jpg"
         alt="Perfil"
-        width={384}
-        height={300}
+        width={325}
+        height={310}
         priority
       />
     </div>
